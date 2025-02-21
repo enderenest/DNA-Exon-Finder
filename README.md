@@ -1,12 +1,12 @@
-# 🧬 DNA to Amino Acid Exon Finder
+# DNA to Amino Acid Exon Finder
 
-## 📝 Project Overview
+## Project Overview
 
 This project is a C program that translates DNA sequences to RNA, converts RNA codons to amino acids, and identifies exon regions in the genetic sequence by comparing RNA and amino acid sequences.
 
 --- 
 
-## 🏛️ Key Features
+## Key Features
 
 DNA to RNA Translation: Converts DNA bases (A, T, G, C) to RNA (U, A, C, G).
 
@@ -16,7 +16,7 @@ Exon Identification: Finds the exact positions of exon regions in DNA by alignin
 
 ---
 
-## 🛠️ Key Functions
+## Key Functions
 
 dna_to_rna() – Translates DNA base to RNA base.
 
@@ -32,12 +32,14 @@ len() – Calculates the length of the exon.
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 Compile and run the program:
 
+```
 gcc main.c -o exon_finder
 ./exon_finder
+```
 
 Input:
 
@@ -51,22 +53,26 @@ Exon positions as four integers (start and end positions of two exon regions), o
 
 ---
 
-## 📤 Sample Output
+## Sample Output
 
+```
 12 45 67 98
+```
 
 OR
 
+```
 NONE
+```
 
 ---
 
-## 🧑‍💻 Dependencies
+## Dependencies
 
 C Compiler (gcc)
 
 ---
 
-## 📫 Contact
+## Contact
 
 Feel free to reach out for questions or contributions!
